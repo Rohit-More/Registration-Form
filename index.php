@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Registration Form</title>
+		<!-- Bootstrap v4.6 links -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
@@ -259,9 +260,9 @@
 						<option value="Civil Engineering">Civil Engineering</option>
 					</select>
 				</div>
-				<button type="submit" class="btn btn-primary" name="submit-btn" >Submit</button>
+				<button type="submit" class="btn btn-primary" name="submit-btn" aria-describedby="emailHelp">Submit</button>
+				<small id="emailHelp" class="form-text text-muted">Please Note: By providing your contact information, you are authorising PCCoE<br> to contact you via email, sms / telecall at your free will.</small>
 			</form>
-			<p id="disclaimer" style="margin: 10px 5px;">Please Note: By providing your contact information,<br> you are authorising PCCoE<br> to contact you via email, sms / telecall at your free will.</p>
 		</div>
 	</body>
 </html>
